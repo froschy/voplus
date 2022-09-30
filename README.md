@@ -1,4 +1,4 @@
-# Voplus
+# voplus
 Transforms votingo export (.zip) to LPLUS import (.xlsx)
 
 For ubuntu please install: 
