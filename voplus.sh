@@ -62,11 +62,3 @@ ssconvert tmp.csv output.xlsx
 cat tmp.csv
 rm tmp.csv
 echo "generated output.xlsx"
-
-#############################################
-# LESSONS LEARNT
-# chmod +x vopluls.sh <- Datei direkt aufrufbar ohne bash in WSL
-# ausführen: ./voplus.sh
-# Programm: [ --> übergeben werden einzelne Variablen, am Schluss die Variable "]", deshalb überall Leerzeichen
-# x="$(eval "echo $(cat 6242ddcaf1e117935e120c87.json | jq .answers)")"
-# expression: für Matheoperationen, immer mit Leerzeichen
